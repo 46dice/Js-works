@@ -1,4 +1,4 @@
-'usegit strict';
+'use strict';
 
 const numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
 const personalMovieDB = {
@@ -12,3 +12,5 @@ const lastFilmName = +prompt('Один из просмотренных филь�
     lastFilmRating = +prompt('На сколько вы оцените его?', '');
 
 personalMovieDB.movies[lastFilmName] = lastFilmRating;
+
+console.log(personalMovieDB);
